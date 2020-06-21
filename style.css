@@ -1,0 +1,28 @@
+body {
+  background: #2c2141;
+  font-family: sans-serif;
+}
+.card {
+  width: 624px;
+  min-height: 320px;
+  background-color: #f8f8f8;
+  display: flex;
+  border-radius: 16px;
+  padding: 32px;
+}
+.card__image {
+  width: 148px;
+  height: 148px;
+}
+
+.card__image--round {
+  border-radius: 100%;
+}
+.special-link {
+  color: #e20613;
+  text-decoration: none;
+}
+.special-info {
+  font-weight: normal;
+  color: #ed6d05;
+}
