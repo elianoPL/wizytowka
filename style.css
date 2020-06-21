@@ -1,10 +1,19 @@
 body {
   background: #2c2141;
   font-family: sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+*, *::before, *::after {
+    box-sizing: inherit;
 }
 .card {
   width: 624px;
-  min-height: 320px;
+  /*min-height: 320px;*/
   background-color: #f8f8f8;
   display: flex;
   border-radius: 16px;
@@ -13,10 +22,25 @@ body {
 .card__image {
   width: 148px;
   height: 148px;
+  margin-right: 32px;
 }
 
 .card__image--round {
   border-radius: 100%;
+}
+.card__name {
+    margin:0;
+    font-weight:normal;font-size: 36px;
+}
+.card__position {
+    margin:0;
+    font-style: italic;
+    color:#545454;font-size: 18px;
+}
+.card__description {
+    font-size: 16px;
+    margin:24px auto 22px;
+    line-height: 22px;
 }
 .special-link {
   color: #e20613;
